@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+}
+
+
+.image-container {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    padding-left: 1rem;
+}
+
+.top-text {
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.text-container {
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    display: flex;
+    padding-top: 8rem;
+    padding-left: 8vw;
+}
+
+.bottom-text {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: revert-layer;
+}
+
+.btn {
+    /* font-size: 1.5rem; */
+    margin-top: 2rem;
+}
+
+.top-part {
+    z-index: 99999;
+}

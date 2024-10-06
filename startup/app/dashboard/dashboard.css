@@ -1,0 +1,37 @@
+.brand {
+    position: relative;
+    margin-left: 19%;
+    right: 2rem;
+    font-weight: 800;
+    font-size: 2rem;
+    /* padding-top: 56%; */
+}
+
+.toolbar {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    z-index: -1;
+}
+
+.search-bar {
+    background-color: "red";
+    top: 1rem;
+    right: 5rem;
+}
+
+.ten h1 {
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ten h1:before {
+    background-color: #c50000;
+    border-radius: 0.25rem;
+    content: '';
+    display: block;
+    height: 0.25rem;
+    width: 42px;
+    margin-bottom: 1.25rem;
+}
